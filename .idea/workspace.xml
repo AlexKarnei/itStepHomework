@@ -2,66 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78469c22-3396-4711-b0c1-879f5eb3bfdb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/RadioFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/RadioFullCycleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/Station/RadioStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/Station/Station.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/battery/SimpleAccumulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/light/LedLamp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/radio/AccumulatorRadio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/radio/Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/radio/SimpleAccumulatorRadio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/radio/SimpleRadio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/AccumulatorTorch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/SimpleAccumulatorTorch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/TorchWirhTreeBattery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/TorchWithLedLight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/TorchWithRadio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/TorchWithTwoAccumulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/TorchWithTwoBattery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/itstep/karnei/RadioFullCycleFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/by/itstep/karnei/RadioFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/by/itstep/karnei/RadioFullCycleFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/by/itstep/karnei/Station/RadioStation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/by/itstep/karnei/Station/Station.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/by/itstep/karnei/battery/Accumulator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/by/itstep/karnei/battery/SimpleAccumulator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/by/itstep/karnei/light/LedLamp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/by/itstep/karnei/radio/AccumulatorRadio.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/by/itstep/karnei/radio/Radio.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/by/itstep/karnei/radio/SimpleAccumulatorRadio.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/by/itstep/karnei/radio/SimpleRadio.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/by/itstep/karnei/torch/AccumulatorTorch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/by/itstep/karnei/torch/SimpleAccumulatorTorch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/by/itstep/karnei/torch/TorchWirhTreeBattery.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/by/itstep/karnei/torch/TorchWithLedLight.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/by/itstep/karnei/torch/TorchWithRadio.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/by/itstep/karnei/torch/TorchWithTwoAccumulator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/by/itstep/karnei/torch/TorchWithTwoBattery.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/by/itstep/karnei/RadioFullCycleFactoryTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/TorchFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/TorchFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/TorchFullCycleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/TorchFullCycleFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/battery/AbstractBattery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/battery/AbstractBattery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/battery/Battery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/battery/Battery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/battery/ChineseBattery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/battery/ChineseBattery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/battery/DuracellBattery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/battery/DuracellBattery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/light/GlowLamp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/light/GlowLamp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/light/Light.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/light/Light.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/SimpleTorch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/SimpleTorch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/Torch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/Torch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/by/itstep/karnei/TorchFactoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/by/itstep/karnei/TorchFullCycleFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/itstep/karnei/TorchFullCycleFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itstep/karnei/TorchFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/itstep/karnei/TorchFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itstep/karnei/TorchFullCycleFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/itstep/karnei/TorchFullCycleFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itstep/karnei/battery/AbstractBattery.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/itstep/karnei/battery/AbstractBattery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itstep/karnei/battery/DuracellBattery.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/itstep/karnei/battery/DuracellBattery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itstep/karnei/light/GlowLamp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/itstep/karnei/light/GlowLamp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itstep/karnei/light/Light.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/itstep/karnei/light/Light.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/itstep/karnei/torch/SimpleTorch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/itstep/karnei/torch/SimpleTorch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/by/itstep/karnei/TorchFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/by/itstep/karnei/TorchFullCycleFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/by/itstep/karnei/TorchFullCycleFactoryTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -435,7 +376,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549206407787" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549207082451" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../interface_7_3" />
@@ -583,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1549206403620</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="homework_7_3_2">
+      <created>1549206757228</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1549206757228</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
