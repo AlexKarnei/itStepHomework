@@ -1,11 +1,8 @@
 package by.itstep.karnei.light;
 
-public class GlowLamp implements Light {
-
-
+public class LedLamp implements Light{
     @Override
     public int chargesToTurnOn() {
-        return 10;
+        return 15/3;
     }
 }
-

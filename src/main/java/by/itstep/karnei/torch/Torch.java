@@ -1,6 +1,6 @@
 package by.itstep.karnei.torch;
 
-public interface Torch {
+public interface Torch  {
 
     boolean turnOn();
 

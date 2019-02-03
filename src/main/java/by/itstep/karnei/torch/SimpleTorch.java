@@ -4,10 +4,10 @@ import by.itstep.karnei.battery.Battery;
 import by.itstep.karnei.light.Light;
 
 public class SimpleTorch implements Torch {
-    private Battery battery;
-    private Light light;
+    protected    Battery battery;
+    protected Light light;
 
-    private boolean enebled;
+    protected boolean enabled;
 
     public SimpleTorch() {
     }
@@ -17,15 +17,18 @@ public class SimpleTorch implements Torch {
         this.light = light;
     }
 
+    @Override
     public boolean turnOn() {
-        if (!enebled) {
-            enebled = battery.getCharge(light.chargeToTurnOn());
-            return enebled;
+        if (!enabled) {
+            enabled = battery.getCharge(light.chargesToTurnOn());
+            return enabled;
+        } else {
+            return enabled;
         }
-        return enebled;
     }
 
+    @Override
     public void turnOff() {
-        enebled = false;
+        enabled = false;
     }
 }

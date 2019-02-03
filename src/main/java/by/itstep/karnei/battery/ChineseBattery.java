@@ -1,11 +1,12 @@
 package by.itstep.karnei.battery;
 
-public class ChineseBattery extends AbstractBattery{
+public class ChineseBattery extends AbstractBattery {
 
     private int charges;
 
-    public ChineseBattery (){
+    public ChineseBattery() {
         super(50);
     }
 }
+
 
