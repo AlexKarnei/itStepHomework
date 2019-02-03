@@ -10,14 +10,15 @@ public class TorchWithLedLight extends TorchWirhTreeBattery implements Accumulat
 
 
     public TorchWithLedLight(Accumulator battery, Accumulator battery1, Accumulator battery2, Light light) {
-        super(battery, battery1,battery2, light);
-        this.accumulator=battery;
-        this.accumulator1=battery1;
+        super(battery, battery1, battery2, light);
+        this.accumulator = battery;
+        this.accumulator1 = battery1;
         this.accumulator2 = battery2;
     }
 
     @Override
     public boolean turnOn() {
+        displayCharge();
         return super.turnOn();
     }
 
@@ -25,7 +26,6 @@ public class TorchWithLedLight extends TorchWirhTreeBattery implements Accumulat
     public void turnOff() {
         super.turnOff();
     }
-
 
 
     public Accumulator getAccumulator2() {
@@ -54,7 +54,7 @@ public class TorchWithLedLight extends TorchWirhTreeBattery implements Accumulat
         return accumulator1.getCharge();
     }
 
-    public void displayCharge(){
-        System.out.printf("Current charge: %d\n",accumulator.getCharge()+accumulator1.getCharge()+accumulator2.getCharge());
+    public void displayCharge() {
+        System.out.printf("Current charge: %d\n", accumulator.getCharge() + accumulator1.getCharge() + accumulator2.getCharge());
     }
 }

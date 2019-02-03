@@ -217,14 +217,13 @@ public class TorchFullCycleFactoryTest {
     public void torchWithLedLightTest() throws Exception {
         TorchWithLedLight torch = factory.createTorchWithLedLight(
                 TorchFullCycleFactory.LED_LAMP);
-        torch.displayCharge();
 
         // Test flashlight with simultaneous turning on the radio
+
         for (int i = 0; i < 700; i++) {
             Assert.assertTrue(torch.turnOn());
             torch.turnOff();
         }
-        torch.displayCharge();
 
         Assert.assertFalse(torch.turnOn());
         torch.turnOff();
@@ -241,9 +240,7 @@ public class TorchFullCycleFactoryTest {
         Assert.assertEquals(700, torch.getAccCharge());
         Assert.assertEquals(700, torch.getAccAccCharge());
         Assert.assertEquals(700, torch.getAccAccAccCharge());
-        torch.displayCharge();
         Assert.assertTrue(torch.turnOn());
         torch.turnOff();
-        torch.displayCharge();
     }
 }
