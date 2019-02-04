@@ -18,7 +18,6 @@ public class TorchWithLedLight extends TorchWirhTreeBattery implements Accumulat
 
     @Override
     public boolean turnOn() {
-        displayCharge();
         return super.turnOn();
     }
 
@@ -54,7 +53,7 @@ public class TorchWithLedLight extends TorchWirhTreeBattery implements Accumulat
         return accumulator1.getCharge();
     }
 
-    public void displayCharge() {
+    public void showCurrentCharge() {
         System.out.printf("Current charge: %d\n", accumulator.getCharge() + accumulator1.getCharge() + accumulator2.getCharge());
     }
 }

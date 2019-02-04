@@ -220,11 +220,19 @@ public class TorchFullCycleFactoryTest {
 
         // Test flashlight with simultaneous turning on the radio
 
-        for (int i = 0; i < 700; i++) {
+        for (int i = 0; i < 120; i++) {
             Assert.assertTrue(torch.turnOn());
             torch.turnOff();
         }
+        torch.showCurrentCharge();
+        torch.getAccumulator().recharge();
+        torch.getAccumulator1().recharge();
+        torch.getAccumulator2().recharge();
 
+        for (int i =0; i<700;i++){
+            Assert.assertTrue(torch.turnOn());
+            torch.turnOff();
+        }
         Assert.assertFalse(torch.turnOn());
         torch.turnOff();
 

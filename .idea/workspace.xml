@@ -5,7 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/TorchWithLedLight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/TorchWithLedLight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/by/itstep/karnei/TorchFullCycleFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/itstep/karnei/TorchFullCycleFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/by/itstep/karnei/TorchFullCycleFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/by/itstep/karnei/TorchFullCycleFactoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/itstep/karnei/torch/TorchWithLedLight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/itstep/karnei/torch/TorchWithLedLight.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +34,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="538" />
+          <entry key="JAVA" value="576" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -44,7 +44,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9915" />
+          <entry key="JAVA" value="10135" />
           <entry key="PLAIN_TEXT" value="14" />
         </counts>
       </usages-collector>
@@ -53,57 +53,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/TorchWithLedLight.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/SimpleTorch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+            <state relative-caret-position="-152">
+              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/radio/AccumulatorRadio.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/TorchWithRadio.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1197#1198#0" expanded="true" />
-                <element signature="e#1234#1235#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/radio/Radio.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/Station/RadioStation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -111,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/by/itstep/karnei/TorchFullCycleFactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            <state relative-caret-position="69">
+              <caret line="216" column="21" selection-start-line="216" selection-start-column="21" selection-end-line="216" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,48 +77,110 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/light/LedLamp.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/TorchWirhTreeBattery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            <state relative-caret-position="68">
+              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
               <folding>
-                <element signature="e#119#120#0" expanded="true" />
-                <element signature="e#146#147#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/itstep/karnei/RadioFullCycleFactoryTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/radio/SimpleAccumulatorRadio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
+            <state relative-caret-position="-33">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/TorchWithLedLight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
               <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/light/GlowLamp.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/TorchWithRadio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="-51">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
-                <element signature="e#123#124#0" expanded="true" />
-                <element signature="e#148#149#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/Station/Station.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/TorchWithTwoAccumulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="544">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#561#562#0" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
+                <element signature="e#688#689#0" expanded="true" />
+                <element signature="e#732#733#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#803#804#0" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/AccumulatorTorch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/TorchWithTwoBattery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-118">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/SimpleAccumulatorTorch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -188,9 +206,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/by/itstep/karnei/TorchFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/itstep/karnei/RadioFullCycle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/itstep/karnei/battery/Accumulator.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/itstep/karnei/battery/DuracellBattery.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/itstep/karnei/battery/SimpleAccumulator.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/itstep/karnei/light/Light.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/itstep/karnei/light/GlowLamp.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/itstep/karnei/radio/SimpleAccRadio.java" />
@@ -207,7 +223,6 @@
         <option value="$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/ЕщесрЦшерЕцщИфееукн.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/ToксрЦшерЕцщИфееукн.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/itstep/karnei/battery/ChineseBattery.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/AccumulatorTorch.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/Torch.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/itstep/karnei/radio/SimpleRadio.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/itstep/karnei/battery/AbstractBattery.java" />
@@ -216,8 +231,6 @@
         <option value="$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/TorchWithTwoElements.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/SimpleTorch.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/itstep/karnei/RadioFullCycleFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/SimpleAccumulatorTorch.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/TorchWithTwoAccumulator.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/itstep/karnei/RadioFullCycleFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/ЕщксрЦшерЕкууИфееукн.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/Tr.java" />
@@ -227,8 +240,13 @@
         <option value="$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/TorchWithTwoBattery.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/TorchWithRadio.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/itstep/karnei/light/LedLamp.java" />
-        <option value="$PROJECT_DIR$/src/test/java/by/itstep/karnei/TorchFullCycleFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/itstep/karnei/battery/SimpleAccumulator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/itstep/karnei/battery/Accumulator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/TorchWithTwoAccumulator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/SimpleAccumulatorTorch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/AccumulatorTorch.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/TorchWithLedLight.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/itstep/karnei/TorchFullCycleFactoryTest.java" />
       </list>
     </option>
   </component>
@@ -370,7 +388,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549220356706" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549297106268" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../interface_7_3" />
@@ -399,7 +417,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TorchFullCycleFactoryTest.torchWithLedLightTest">
+  <component name="RunManager" selected="JUnit.RadioFullCycleFactoryTest">
     <configuration name="RadioFullCycleFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homework7_3_2" />
       <extension name="coverage">
@@ -424,6 +442,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="by.itstep.karnei" />
       <option name="MAIN_CLASS_NAME" value="by.itstep.karnei.TorchFullCycleFactoryTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TorchFullCycleFactoryTest.accumulatorBatteryTorchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homework7_3_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.itstep.karnei.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.itstep.karnei" />
+      <option name="MAIN_CLASS_NAME" value="by.itstep.karnei.TorchFullCycleFactoryTest" />
+      <option name="METHOD_NAME" value="accumulatorBatteryTorchTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -460,36 +494,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TorchFullCycleFactoryTest.torchWithRadioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="homework7_3_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="by.itstep.karnei.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="by.itstep.karnei" />
-      <option name="MAIN_CLASS_NAME" value="by.itstep.karnei.TorchFullCycleFactoryTest" />
-      <option name="METHOD_NAME" value="torchWithRadioTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.TorchFullCycleFactoryTest.torchWithRadioTest" />
       <item itemvalue="JUnit.TorchFullCycleFactoryTest" />
       <item itemvalue="JUnit.TorchFullCycleFactoryTest.torchWithLedLightTest" />
       <item itemvalue="JUnit.RadioFullCycleFactoryTest" />
       <item itemvalue="JUnit.TorchFullCycleFactoryTest.chineseBatteryTorchTest" />
+      <item itemvalue="JUnit.TorchFullCycleFactoryTest.accumulatorBatteryTorchTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TorchFullCycleFactoryTest.torchWithLedLightTest" />
-        <item itemvalue="JUnit.TorchFullCycleFactoryTest.chineseBatteryTorchTest" />
-        <item itemvalue="JUnit.TorchFullCycleFactoryTest" />
         <item itemvalue="JUnit.RadioFullCycleFactoryTest" />
-        <item itemvalue="JUnit.TorchFullCycleFactoryTest.torchWithRadioTest" />
+        <item itemvalue="JUnit.TorchFullCycleFactoryTest.torchWithLedLightTest" />
+        <item itemvalue="JUnit.TorchFullCycleFactoryTest" />
+        <item itemvalue="JUnit.TorchFullCycleFactoryTest.accumulatorBatteryTorchTest" />
+        <item itemvalue="JUnit.TorchFullCycleFactoryTest.chineseBatteryTorchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -539,39 +557,46 @@
       <option name="project" value="LOCAL" />
       <updated>1549207812598</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="homework_7_3_2">
+      <created>1549220500057</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1549220500057</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RadioFullCycleFactoryTest - 2019.02.03 at 18h 33m 18s.xml">
-      <configuration name="RadioFullCycleFactoryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TorchFullCycleFactoryTest - 2019.02.03 at 18h 33m 27s.xml">
-      <configuration name="TorchFullCycleFactoryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RadioFullCycleFactoryTest - 2019.02.03 at 18h 47m 50s.xml">
-      <configuration name="RadioFullCycleFactoryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TorchFullCycleFactoryTest - 2019.02.03 at 18h 47m 55s.xml">
-      <configuration name="TorchFullCycleFactoryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TorchFullCycleFactoryTest - 2019.02.03 at 21h 43m 38s.xml">
-      <configuration name="TorchFullCycleFactoryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TorchFullCycleFactoryTest_torchWithLedLightTest - 2019.02.03 at 21h 46m 37s.xml">
+    <history-entry file="TorchFullCycleFactoryTest_torchWithLedLightTest - 2019.02.04 at 19h 08m 59s.xml">
       <configuration name="TorchFullCycleFactoryTest.torchWithLedLightTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TorchFullCycleFactoryTest_torchWithLedLightTest - 2019.02.03 at 21h 53m 19s.xml">
+    <history-entry file="TorchFullCycleFactoryTest_torchWithLedLightTest - 2019.02.04 at 19h 09m 25s.xml">
       <configuration name="TorchFullCycleFactoryTest.torchWithLedLightTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TorchFullCycleFactoryTest_torchWithLedLightTest - 2019.02.03 at 21h 53m 40s.xml">
+    <history-entry file="TorchFullCycleFactoryTest_torchWithLedLightTest - 2019.02.04 at 19h 10m 20s.xml">
       <configuration name="TorchFullCycleFactoryTest.torchWithLedLightTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TorchFullCycleFactoryTest_torchWithLedLightTest - 2019.02.03 at 21h 53m 59s.xml">
+    <history-entry file="TorchFullCycleFactoryTest_torchWithLedLightTest - 2019.02.04 at 19h 11m 04s.xml">
       <configuration name="TorchFullCycleFactoryTest.torchWithLedLightTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TorchFullCycleFactoryTest - 2019.02.03 at 21h 55m 17s.xml">
+    <history-entry file="TorchFullCycleFactoryTest_torchWithLedLightTest - 2019.02.04 at 19h 13m 53s.xml">
+      <configuration name="TorchFullCycleFactoryTest.torchWithLedLightTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TorchFullCycleFactoryTest - 2019.02.04 at 19h 14m 38s.xml">
       <configuration name="TorchFullCycleFactoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TorchFullCycleFactoryTest_torchWithLedLightTest - 2019.02.04 at 19h 15m 17s.xml">
+      <configuration name="TorchFullCycleFactoryTest.torchWithLedLightTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TorchFullCycleFactoryTest_torchWithLedLightTest - 2019.02.04 at 19h 15m 35s.xml">
+      <configuration name="TorchFullCycleFactoryTest.torchWithLedLightTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TorchFullCycleFactoryTest_torchWithLedLightTest - 2019.02.04 at 19h 16m 20s.xml">
+      <configuration name="TorchFullCycleFactoryTest.torchWithLedLightTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TorchFullCycleFactoryTest_torchWithLedLightTest - 2019.02.04 at 19h 16m 36s.xml">
+      <configuration name="TorchFullCycleFactoryTest.torchWithLedLightTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -619,17 +644,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/radio/SimpleAccRadio.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/radio/SimpleTwoBatterysRadio.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/radio/SimpleTwoBatteryRadio.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/radio/SimpleAccumulatorRadio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
@@ -647,30 +661,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/RadioFullCycleFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/ЕщксрЦшерЕкууИфееукн.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/TorchFullCycleFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="103" column="28" lean-forward="true" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -681,24 +675,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/battery/AbstractBattery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/battery/Accumulator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/light/Light.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/battery/Battery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -716,86 +696,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/battery/SimpleAccumulator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/light/LedLamp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/light/GlowLamp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/light/Light.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/Torch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/AccumulatorTorch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/SimpleTorch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/SimpleAccumulatorTorch.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/RadioFullCycleFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/TorchWithTwoBattery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/TorchWithTwoAccumulator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/TorchWirhTreeBattery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -812,13 +738,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/radio/SimpleRadio.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/itstep/karnei/RadioFullCycleFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state relative-caret-position="-68">
+          <caret line="29" column="40" selection-start-line="27" selection-start-column="61" selection-end-line="29" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/Torch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/Station/Station.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/Station/RadioStation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -839,58 +786,139 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/TorchWithRadio.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/radio/SimpleRadio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="-271">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#1234#1235#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/light/GlowLamp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#123#124#0" expanded="true" />
-            <element signature="e#148#149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/Station/Station.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/battery/Battery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/Station/RadioStation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/TorchFullCycleFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/light/LedLamp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="1248">
+          <caret line="103" column="28" lean-forward="true" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
           <folding>
-            <element signature="e#119#120#0" expanded="true" />
-            <element signature="e#146#147#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/itstep/karnei/RadioFullCycleFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/battery/Accumulator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+        <state relative-caret-position="68">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/battery/AbstractBattery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/battery/SimpleAccumulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/AccumulatorTorch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/radio/SimpleAccumulatorRadio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/SimpleTorch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/TorchWirhTreeBattery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/TorchWithRadio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/TorchWithTwoAccumulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/SimpleAccumulatorTorch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/TorchWithTwoBattery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-118">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -899,18 +927,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/itstep/karnei/torch/TorchWithLedLight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        <state relative-caret-position="289">
+          <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/by/itstep/karnei/TorchFullCycleFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        <state relative-caret-position="69">
+          <caret line="216" column="21" selection-start-line="216" selection-start-column="21" selection-end-line="216" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
