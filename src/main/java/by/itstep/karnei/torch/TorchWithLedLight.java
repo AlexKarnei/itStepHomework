@@ -3,7 +3,7 @@ package by.itstep.karnei.torch;
 import by.itstep.karnei.battery.Accumulator;
 import by.itstep.karnei.light.Light;
 
-public class TorchWithLedLight extends TorchWirhTreeBattery implements AccumulatorTorch {
+public class TorchWithLedLight extends TorchWithThreeBattery implements AccumulatorTorch {
     private Accumulator accumulator;
     private Accumulator accumulator1;
     private Accumulator accumulator2;
