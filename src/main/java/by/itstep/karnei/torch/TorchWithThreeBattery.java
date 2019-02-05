@@ -17,7 +17,7 @@ public class TorchWithThreeBattery extends TorchWithTwoBattery implements Torch 
     public boolean turnOn() {
         if (!enabled) {
             enabled = battery.getCharge(light.chargesToTurnOn() / 3) &
-                    battery1.getCharge(light.chargesToTurnOn() / 3);// &
+                    battery1.getCharge(light.chargesToTurnOn() / 3) &
             battery2.getCharge(light.chargesToTurnOn() / 3);
             return enabled;
         } else {

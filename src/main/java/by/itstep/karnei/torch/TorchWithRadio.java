@@ -3,9 +3,7 @@ package by.itstep.karnei.torch;
 import by.itstep.karnei.Station.Station;
 import by.itstep.karnei.battery.Accumulator;
 import by.itstep.karnei.light.Light;
-import by.itstep.karnei.radio.AccumulatorRadio;
 import by.itstep.karnei.radio.Radio;
-import by.itstep.karnei.radio.SimpleRadio;
 
 public class TorchWithRadio extends TorchWithTwoAccumulator implements AccumulatorTorch, Radio {
 
@@ -55,6 +53,6 @@ public class TorchWithRadio extends TorchWithTwoAccumulator implements Accumulat
 
     @Override
     public boolean reproduceStation() {
-        return battery.getCharge(station.chargesToTurnOn()/2)&battery1.getCharge(station.chargesToTurnOn()/2);
+        return battery.getCharge(station.chargesToTurnOn() / 2) & battery1.getCharge(station.chargesToTurnOn() / 2);
     }
 }

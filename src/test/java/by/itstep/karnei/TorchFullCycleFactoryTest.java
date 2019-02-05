@@ -229,10 +229,11 @@ public class TorchFullCycleFactoryTest {
         torch.getAccumulator1().recharge();
         torch.getAccumulator2().recharge();
 
-        for (int i =0; i<700;i++){
+        for (int i = 0; i < 700; i++) {
             Assert.assertTrue(torch.turnOn());
             torch.turnOff();
         }
+
         Assert.assertFalse(torch.turnOn());
         torch.turnOff();
 
